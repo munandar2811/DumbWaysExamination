@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Form Biodata</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <form>
+    Nama Lengkap  <br>
+    <input type="text" name="nama"/><br><br>
+    Tempat Lahir <br>
+    <select name="cities">
+      <option value="Jakarta">Jakarta</option>
+      <option value="Bandung">Bandung</option>
+      <Option value="Medan" >Medan</Option>
+    </select><br><br>
+    Tanggal Lahir:<br>
+    <input type="text" name="Tanggal_lahir"/><br><br>
+    No. Hp <br>
+    <input type="number" name="no_handphone"/><br><br>
+    Alamat <br>
+    <textarea name="alamat" rows="5" cols="40">
+    </textarea><br><br>
+    Pendidikan Terakhir <br>
+    <select name="pendidikan">
+      <option value="SMA">SMA</option>
+      <option value="D3">D3</option>
+      <option value="S1">S1</option>
+    </select>
+    <br><br>
+    Agama <br>
+    <input type="radio" name="agama" value="islam">Islam<br>
+    <input type="radio" name="agama" value="kristen">Kristen<br>
+    <input type="radio" name="agama" value="katolik">Katolik<br>
+    <br><br>
+    Hobi <br>
+    <input type="radio" name="hobi" value="renang">Renang<br>
+    <input type="radio" name="hobi" value="mancing">Mancing<br>
+    <input type="radio" name="hobi" value="game">Game<br>
+    <input type="radio" name="hobi" value="gibah">Gibah<br>
+    <input type="radio" name="hobi" value="programing">Programing
+    <br><br><br>
+    <button type="submit" name="submit" value=""> submit</button>
+    <button type="edit" name="edit" value=""> Edit label</button>
+    
+    </form>
+    <script src="index.js"></script>
+  </body>
+</html>
